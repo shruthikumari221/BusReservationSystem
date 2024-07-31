@@ -1,0 +1,430 @@
+2024-07-31T12:26:35.941+05:30  INFO 13960 --- [restartedMain] .m.BusTicketReservationSystemApplication : Starting BusTicketReservationSystemApplication using Java 21.0.4 with PID 13960 (C:\Users\Shrut\Documents\BusTicketReservationSystem\build\classes\java\main started by Shrut in C:\Users\Shrut\Documents\BusTicketReservationSystem)
+2024-07-31T12:26:35.943+05:30  INFO 13960 --- [restartedMain] .m.BusTicketReservationSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-07-31T12:26:35.999+05:30  INFO 13960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-31T12:26:35.999+05:30  INFO 13960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-31T12:26:36.800+05:30  INFO 13960 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-31T12:26:36.898+05:30  INFO 13960 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 6 JPA repository interfaces.
+2024-07-31T12:26:37.600+05:30  INFO 13960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8088 (http)
+2024-07-31T12:26:37.616+05:30  INFO 13960 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-31T12:26:37.616+05:30  INFO 13960 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-31T12:26:37.670+05:30  INFO 13960 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-31T12:26:37.671+05:30  INFO 13960 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1671 ms
+2024-07-31T12:26:37.841+05:30  INFO 13960 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-31T12:26:37.906+05:30  INFO 13960 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-31T12:26:37.946+05:30  INFO 13960 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-31T12:26:38.322+05:30  INFO 13960 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-31T12:26:38.350+05:30  INFO 13960 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-31T12:26:38.992+05:30  INFO 13960 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33f56607
+2024-07-31T12:26:38.995+05:30  INFO 13960 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-31T12:26:40.053+05:30  INFO 13960 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-31T12:26:40.215+05:30  INFO 13960 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31T12:26:40.652+05:30  WARN 13960 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-31T12:26:40.685+05:30  INFO 13960 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-31T12:26:41.079+05:30  INFO 13960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-31T12:26:41.123+05:30  INFO 13960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8088 (http) with context path '/'
+2024-07-31T12:26:41.137+05:30  INFO 13960 --- [restartedMain] .m.BusTicketReservationSystemApplication : Started BusTicketReservationSystemApplication in 5.665 seconds (process running for 6.223)
+2024-07-31T12:31:44.537+05:30  INFO 1352 --- [restartedMain] .m.BusTicketReservationSystemApplication : Starting BusTicketReservationSystemApplication using Java 21.0.4 with PID 1352 (C:\Users\Shrut\Documents\BusTicketReservationSystem\build\classes\java\main started by Shrut in C:\Users\Shrut\Documents\BusTicketReservationSystem)
+2024-07-31T12:31:44.539+05:30  INFO 1352 --- [restartedMain] .m.BusTicketReservationSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-07-31T12:31:44.594+05:30  INFO 1352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-31T12:31:44.594+05:30  INFO 1352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-31T12:31:45.421+05:30  INFO 1352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-31T12:31:45.530+05:30  INFO 1352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 6 JPA repository interfaces.
+2024-07-31T12:31:46.266+05:30  INFO 1352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8088 (http)
+2024-07-31T12:31:46.279+05:30  INFO 1352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-31T12:31:46.280+05:30  INFO 1352 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-31T12:31:46.322+05:30  INFO 1352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-31T12:31:46.322+05:30  INFO 1352 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1727 ms
+2024-07-31T12:31:46.516+05:30  INFO 1352 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-31T12:31:46.615+05:30  INFO 1352 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-31T12:31:46.668+05:30  INFO 1352 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-31T12:31:47.059+05:30  INFO 1352 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-31T12:31:47.087+05:30  INFO 1352 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-31T12:31:47.563+05:30  INFO 1352 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@160c72f2
+2024-07-31T12:31:47.567+05:30  INFO 1352 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-31T12:31:48.748+05:30  INFO 1352 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-31T12:31:48.834+05:30  INFO 1352 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31T12:31:49.349+05:30  WARN 1352 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-31T12:31:49.385+05:30  INFO 1352 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-31T12:31:49.842+05:30  INFO 1352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-31T12:31:49.907+05:30  INFO 1352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8088 (http) with context path '/'
+2024-07-31T12:31:49.919+05:30  INFO 1352 --- [restartedMain] .m.BusTicketReservationSystemApplication : Started BusTicketReservationSystemApplication in 5.875 seconds (process running for 6.475)
+2024-07-31T12:32:40.227+05:30  INFO 1352 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-31T12:32:40.228+05:30  INFO 1352 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-31T12:32:40.231+05:30  INFO 1352 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-07-31T12:32:40.278+05:30  WARN 1352 --- [http-nio-8088-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /AddBus
+2024-07-31T12:32:40.424+05:30  WARN 1352 --- [http-nio-8088-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /AddBus.]
+2024-07-31T12:32:40.457+05:30  WARN 1352 --- [http-nio-8088-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-07-31T12:32:40.471+05:30  WARN 1352 --- [http-nio-8088-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+2024-07-31T12:33:32.877+05:30  WARN 1352 --- [http-nio-8088-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /BusTicketReservationSystemApplication
+2024-07-31T12:33:32.881+05:30  WARN 1352 --- [http-nio-8088-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /BusTicketReservationSystemApplication.]
+2024-07-31T12:33:32.987+05:30  WARN 1352 --- [http-nio-8088-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-07-31T12:33:32.989+05:30  WARN 1352 --- [http-nio-8088-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+2024-07-31T12:37:29.250+05:30  INFO 10436 --- [restartedMain] .m.BusTicketReservationSystemApplication : Starting BusTicketReservationSystemApplication using Java 21.0.4 with PID 10436 (C:\Users\Shrut\Documents\BusTicketReservationSystem\build\classes\java\main started by Shrut in C:\Users\Shrut\Documents\BusTicketReservationSystem)
+2024-07-31T12:37:29.254+05:30  INFO 10436 --- [restartedMain] .m.BusTicketReservationSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-07-31T12:37:29.327+05:30  INFO 10436 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-31T12:37:29.327+05:30  INFO 10436 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-31T12:37:30.321+05:30  INFO 10436 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-31T12:37:30.445+05:30  INFO 10436 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105 ms. Found 6 JPA repository interfaces.
+2024-07-31T12:37:31.199+05:30  INFO 10436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8088 (http)
+2024-07-31T12:37:31.218+05:30  INFO 10436 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-31T12:37:31.219+05:30  INFO 10436 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-31T12:37:31.282+05:30  INFO 10436 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-31T12:37:31.283+05:30  INFO 10436 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1954 ms
+2024-07-31T12:37:31.511+05:30  INFO 10436 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-31T12:37:31.635+05:30  INFO 10436 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-31T12:37:31.689+05:30  INFO 10436 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-31T12:37:32.061+05:30  INFO 10436 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-31T12:37:32.099+05:30  INFO 10436 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-31T12:37:32.464+05:30  INFO 10436 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8840a5f
+2024-07-31T12:37:32.466+05:30  INFO 10436 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-31T12:37:33.725+05:30  INFO 10436 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-31T12:37:33.831+05:30  INFO 10436 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31T12:37:34.324+05:30  WARN 10436 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-31T12:37:34.353+05:30  INFO 10436 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-31T12:37:34.840+05:30  INFO 10436 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-31T12:37:34.872+05:30  INFO 10436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8088 (http) with context path '/'
+2024-07-31T12:37:34.882+05:30  INFO 10436 --- [restartedMain] .m.BusTicketReservationSystemApplication : Started BusTicketReservationSystemApplication in 6.246 seconds (process running for 7.374)
+2024-07-31T12:38:34.830+05:30  INFO 10436 --- [http-nio-8088-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-31T12:38:34.832+05:30  INFO 10436 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-31T12:38:34.836+05:30  INFO 10436 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-07-31T12:38:35.473+05:30  WARN 10436 --- [http-nio-8088-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.UserException: Please provide a valid key to view buses]
+2024-07-31T12:38:35.473+05:30  WARN 10436 --- [http-nio-8088-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.UserException: Please provide a valid key to view all user.]
+2024-07-31T12:38:35.473+05:30  WARN 10436 --- [http-nio-8088-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.UserException: Please provide a valid key to view Route]
+2024-07-31T12:38:57.325+05:30  INFO 14492 --- [restartedMain] .m.BusTicketReservationSystemApplication : Starting BusTicketReservationSystemApplication using Java 21.0.4 with PID 14492 (C:\Users\Shrut\Documents\BusTicketReservationSystem\build\classes\java\main started by Shrut in C:\Users\Shrut\Documents\BusTicketReservationSystem)
+2024-07-31T12:38:57.328+05:30  INFO 14492 --- [restartedMain] .m.BusTicketReservationSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-07-31T12:38:57.392+05:30  INFO 14492 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-31T12:38:57.393+05:30  INFO 14492 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-31T12:38:58.199+05:30  INFO 14492 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-31T12:38:58.298+05:30  INFO 14492 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 6 JPA repository interfaces.
+2024-07-31T12:38:59.037+05:30  INFO 14492 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8088 (http)
+2024-07-31T12:38:59.052+05:30  INFO 14492 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-31T12:38:59.052+05:30  INFO 14492 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-31T12:38:59.097+05:30  INFO 14492 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-31T12:38:59.098+05:30  INFO 14492 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1705 ms
+2024-07-31T12:38:59.279+05:30  INFO 14492 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-31T12:38:59.359+05:30  INFO 14492 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-31T12:38:59.420+05:30  INFO 14492 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-31T12:38:59.833+05:30  INFO 14492 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-31T12:38:59.867+05:30  INFO 14492 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-31T12:39:00.260+05:30  INFO 14492 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1071c6ce
+2024-07-31T12:39:00.263+05:30  INFO 14492 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-31T12:39:01.511+05:30  INFO 14492 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-31T12:39:01.604+05:30  INFO 14492 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31T12:39:02.137+05:30  WARN 14492 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-31T12:39:02.170+05:30  INFO 14492 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-31T12:39:02.618+05:30  WARN 14492 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-07-31T12:39:02.643+05:30  WARN 14492 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-07-31T12:39:02.654+05:30  INFO 14492 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31T12:39:02.656+05:30  INFO 14492 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-31T12:39:02.665+05:30  INFO 14492 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-31T12:39:02.677+05:30  INFO 14492 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-31T12:39:02.701+05:30 ERROR 14492 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8088 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8088 or configure this application to listen on another port.
+
+2024-07-31T12:39:55.154+05:30  INFO 1956 --- [restartedMain] .m.BusTicketReservationSystemApplication : Starting BusTicketReservationSystemApplication using Java 21.0.4 with PID 1956 (C:\Users\Shrut\Documents\BusTicketReservationSystem\build\classes\java\main started by Shrut in C:\Users\Shrut\Documents\BusTicketReservationSystem)
+2024-07-31T12:39:55.157+05:30  INFO 1956 --- [restartedMain] .m.BusTicketReservationSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-07-31T12:39:55.226+05:30  INFO 1956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-31T12:39:55.226+05:30  INFO 1956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-31T12:39:56.042+05:30  INFO 1956 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-31T12:39:56.137+05:30  INFO 1956 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86 ms. Found 6 JPA repository interfaces.
+2024-07-31T12:39:56.886+05:30  INFO 1956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8088 (http)
+2024-07-31T12:39:56.901+05:30  INFO 1956 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-31T12:39:56.902+05:30  INFO 1956 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-31T12:39:56.949+05:30  INFO 1956 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-31T12:39:56.949+05:30  INFO 1956 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1723 ms
+2024-07-31T12:39:57.140+05:30  INFO 1956 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-31T12:39:57.201+05:30  INFO 1956 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-31T12:39:57.240+05:30  INFO 1956 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-31T12:39:57.584+05:30  INFO 1956 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-31T12:39:57.608+05:30  INFO 1956 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-31T12:39:57.983+05:30  INFO 1956 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16481963
+2024-07-31T12:39:57.985+05:30  INFO 1956 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-31T12:39:59.049+05:30  INFO 1956 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-31T12:39:59.164+05:30  INFO 1956 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31T12:39:59.742+05:30  WARN 1956 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-31T12:39:59.776+05:30  INFO 1956 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-31T12:40:00.192+05:30  WARN 1956 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-07-31T12:40:00.220+05:30  WARN 1956 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-07-31T12:40:00.224+05:30  INFO 1956 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31T12:40:00.228+05:30  INFO 1956 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-31T12:40:00.240+05:30  INFO 1956 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-31T12:40:00.254+05:30  INFO 1956 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-31T12:40:00.279+05:30 ERROR 1956 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8088 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8088 or configure this application to listen on another port.
+
+2024-07-31T12:41:05.173+05:30  WARN 10436 --- [http-nio-8088-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /BusTicket
+2024-07-31T12:41:05.182+05:30  WARN 10436 --- [http-nio-8088-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /BusTicket.]
+2024-07-31T12:41:05.259+05:30  WARN 10436 --- [http-nio-8088-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-07-31T12:41:05.270+05:30  WARN 10436 --- [http-nio-8088-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+2024-07-31T12:41:23.053+05:30  WARN 10436 --- [http-nio-8088-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /AddTicket
+2024-07-31T12:41:23.056+05:30  WARN 10436 --- [http-nio-8088-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /AddTicket.]
+2024-07-31T12:41:23.073+05:30  WARN 10436 --- [http-nio-8088-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-07-31T12:41:23.075+05:30  WARN 10436 --- [http-nio-8088-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+2024-07-31T12:49:07.552+05:30  INFO 13636 --- [restartedMain] .m.BusTicketReservationSystemApplication : Starting BusTicketReservationSystemApplication using Java 21.0.4 with PID 13636 (C:\Users\Shrut\Documents\BusTicketReservationSystem\build\classes\java\main started by Shrut in C:\Users\Shrut\Documents\BusTicketReservationSystem)
+2024-07-31T12:49:07.555+05:30  INFO 13636 --- [restartedMain] .m.BusTicketReservationSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-07-31T12:49:07.648+05:30  INFO 13636 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-31T12:49:07.648+05:30  INFO 13636 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-31T12:49:08.573+05:30  INFO 13636 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-31T12:49:08.700+05:30  INFO 13636 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116 ms. Found 6 JPA repository interfaces.
+2024-07-31T12:49:09.522+05:30  INFO 13636 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8088 (http)
+2024-07-31T12:49:09.540+05:30  INFO 13636 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-31T12:49:09.540+05:30  INFO 13636 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-31T12:49:09.592+05:30  INFO 13636 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-31T12:49:09.592+05:30  INFO 13636 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1944 ms
+2024-07-31T12:49:09.797+05:30  INFO 13636 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-31T12:49:09.902+05:30  INFO 13636 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-31T12:49:09.955+05:30  INFO 13636 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-31T12:49:10.353+05:30  INFO 13636 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-31T12:49:10.390+05:30  INFO 13636 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-31T12:49:10.931+05:30  INFO 13636 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16481963
+2024-07-31T12:49:10.935+05:30  INFO 13636 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-31T12:49:12.189+05:30  INFO 13636 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-31T12:49:12.322+05:30  INFO 13636 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31T12:49:12.822+05:30  WARN 13636 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-31T12:49:12.855+05:30  INFO 13636 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-31T12:49:13.293+05:30  INFO 13636 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-31T12:49:13.339+05:30  INFO 13636 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8088 (http) with context path '/'
+2024-07-31T12:49:13.348+05:30  INFO 13636 --- [restartedMain] .m.BusTicketReservationSystemApplication : Started BusTicketReservationSystemApplication in 6.347 seconds (process running for 6.979)
+2024-07-31T12:53:10.122+05:30  INFO 13636 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-31T12:53:10.123+05:30  INFO 13636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-31T12:53:10.127+05:30  INFO 13636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-07-31T12:53:10.168+05:30  WARN 13636 --- [http-nio-8088-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /BusTicketReservationSystem
+2024-07-31T12:53:10.326+05:30  WARN 13636 --- [http-nio-8088-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /BusTicketReservationSystem.]
+2024-07-31T12:53:10.372+05:30  WARN 13636 --- [http-nio-8088-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-07-31T12:53:10.382+05:30  WARN 13636 --- [http-nio-8088-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+2024-07-31T12:54:22.460+05:30  WARN 13636 --- [http-nio-8088-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /BusTicketReservationSystem
+2024-07-31T12:54:22.463+05:30  WARN 13636 --- [http-nio-8088-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /BusTicketReservationSystem.]
+2024-07-31T12:54:22.494+05:30  WARN 13636 --- [http-nio-8088-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-07-31T12:54:22.498+05:30  WARN 13636 --- [http-nio-8088-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+2024-07-31T12:54:25.096+05:30  WARN 13636 --- [http-nio-8088-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /BusTicketReservationSystem
+2024-07-31T12:54:25.099+05:30  WARN 13636 --- [http-nio-8088-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /BusTicketReservationSystem.]
+2024-07-31T12:54:25.122+05:30  WARN 13636 --- [http-nio-8088-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-07-31T12:54:25.126+05:30  WARN 13636 --- [http-nio-8088-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+2024-07-31T12:54:26.599+05:30  WARN 13636 --- [http-nio-8088-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /BusTicketReservationSystem
+2024-07-31T12:54:26.605+05:30  WARN 13636 --- [http-nio-8088-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /BusTicketReservationSystem.]
+2024-07-31T12:54:26.637+05:30  WARN 13636 --- [http-nio-8088-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-07-31T12:54:26.640+05:30  WARN 13636 --- [http-nio-8088-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+2024-07-31T12:54:27.614+05:30  WARN 13636 --- [http-nio-8088-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /BusTicketReservationSystem
+2024-07-31T12:54:27.618+05:30  WARN 13636 --- [http-nio-8088-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /BusTicketReservationSystem.]
+2024-07-31T12:54:27.638+05:30  WARN 13636 --- [http-nio-8088-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-07-31T12:54:27.641+05:30  WARN 13636 --- [http-nio-8088-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+2024-07-31T12:54:28.555+05:30  WARN 13636 --- [http-nio-8088-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /BusTicketReservationSystem
+2024-07-31T12:54:28.559+05:30  WARN 13636 --- [http-nio-8088-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /BusTicketReservationSystem.]
+2024-07-31T12:54:28.587+05:30  WARN 13636 --- [http-nio-8088-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-07-31T12:54:28.590+05:30  WARN 13636 --- [http-nio-8088-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+2024-07-31T12:54:29.423+05:30  WARN 13636 --- [http-nio-8088-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /BusTicketReservationSystem
+2024-07-31T12:54:29.427+05:30  WARN 13636 --- [http-nio-8088-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /BusTicketReservationSystem.]
+2024-07-31T12:54:29.458+05:30  WARN 13636 --- [http-nio-8088-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-07-31T12:54:29.461+05:30  WARN 13636 --- [http-nio-8088-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+2024-07-31T12:54:30.090+05:30  WARN 13636 --- [http-nio-8088-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /BusTicketReservationSystem
+2024-07-31T12:54:30.094+05:30  WARN 13636 --- [http-nio-8088-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /BusTicketReservationSystem.]
+2024-07-31T12:54:30.122+05:30  WARN 13636 --- [http-nio-8088-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-07-31T12:54:30.123+05:30  WARN 13636 --- [http-nio-8088-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+2024-07-31T12:54:30.619+05:30  WARN 13636 --- [http-nio-8088-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /BusTicketReservationSystem
+2024-07-31T12:54:30.623+05:30  WARN 13636 --- [http-nio-8088-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /BusTicketReservationSystem.]
+2024-07-31T12:54:30.655+05:30  WARN 13636 --- [http-nio-8088-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-07-31T12:54:30.659+05:30  WARN 13636 --- [http-nio-8088-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+2024-07-31T12:54:31.052+05:30  WARN 13636 --- [http-nio-8088-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /BusTicketReservationSystem
+2024-07-31T12:54:31.055+05:30  WARN 13636 --- [http-nio-8088-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /BusTicketReservationSystem.]
+2024-07-31T12:54:31.091+05:30  WARN 13636 --- [http-nio-8088-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-07-31T12:54:31.095+05:30  WARN 13636 --- [http-nio-8088-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+2024-07-31T12:54:31.503+05:30  WARN 13636 --- [http-nio-8088-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /BusTicketReservationSystem
+2024-07-31T12:54:31.506+05:30  WARN 13636 --- [http-nio-8088-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /BusTicketReservationSystem.]
+2024-07-31T12:54:31.531+05:30  WARN 13636 --- [http-nio-8088-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-07-31T12:54:31.534+05:30  WARN 13636 --- [http-nio-8088-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+2024-07-31T12:54:32.075+05:30  WARN 13636 --- [http-nio-8088-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /BusTicketReservationSystem
+2024-07-31T12:54:32.078+05:30  WARN 13636 --- [http-nio-8088-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /BusTicketReservationSystem.]
+2024-07-31T12:54:32.118+05:30  WARN 13636 --- [http-nio-8088-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-07-31T12:54:32.120+05:30  WARN 13636 --- [http-nio-8088-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+2024-07-31T12:54:32.629+05:30  WARN 13636 --- [http-nio-8088-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /BusTicketReservationSystem
+2024-07-31T12:54:32.633+05:30  WARN 13636 --- [http-nio-8088-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /BusTicketReservationSystem.]
+2024-07-31T12:54:32.666+05:30  WARN 13636 --- [http-nio-8088-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-07-31T12:54:32.669+05:30  WARN 13636 --- [http-nio-8088-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+2024-07-31T12:54:33.065+05:30  WARN 13636 --- [http-nio-8088-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /BusTicketReservationSystem
+2024-07-31T12:54:33.068+05:30  WARN 13636 --- [http-nio-8088-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /BusTicketReservationSystem.]
+2024-07-31T12:54:33.088+05:30  WARN 13636 --- [http-nio-8088-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-07-31T12:54:33.090+05:30  WARN 13636 --- [http-nio-8088-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+2024-07-31T12:55:50.488+05:30  INFO 12076 --- [restartedMain] .m.BusTicketReservationSystemApplication : Starting BusTicketReservationSystemApplication using Java 21.0.4 with PID 12076 (C:\Users\Shrut\Documents\BusTicketReservationSystem\build\classes\java\main started by Shrut in C:\Users\Shrut\Documents\BusTicketReservationSystem)
+2024-07-31T12:55:50.490+05:30  INFO 12076 --- [restartedMain] .m.BusTicketReservationSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-07-31T12:55:50.553+05:30  INFO 12076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-31T12:55:50.553+05:30  INFO 12076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-31T12:55:51.395+05:30  INFO 12076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-31T12:55:51.486+05:30  INFO 12076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85 ms. Found 6 JPA repository interfaces.
+2024-07-31T12:55:52.258+05:30  INFO 12076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8088 (http)
+2024-07-31T12:55:52.273+05:30  INFO 12076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-31T12:55:52.273+05:30  INFO 12076 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-31T12:55:52.314+05:30  INFO 12076 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-31T12:55:52.315+05:30  INFO 12076 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1762 ms
+2024-07-31T12:55:52.497+05:30  INFO 12076 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-31T12:55:52.595+05:30  INFO 12076 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-31T12:55:52.659+05:30  INFO 12076 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-31T12:55:53.055+05:30  INFO 12076 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-31T12:55:53.084+05:30  INFO 12076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-31T12:55:53.599+05:30  INFO 12076 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d25b65a
+2024-07-31T12:55:53.602+05:30  INFO 12076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-31T12:55:54.802+05:30  INFO 12076 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-31T12:55:54.905+05:30  INFO 12076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31T12:55:55.461+05:30  WARN 12076 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-31T12:55:55.496+05:30  INFO 12076 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-31T12:55:55.940+05:30  INFO 12076 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-31T12:55:55.984+05:30  INFO 12076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8088 (http) with context path '/'
+2024-07-31T12:55:55.998+05:30  INFO 12076 --- [restartedMain] .m.BusTicketReservationSystemApplication : Started BusTicketReservationSystemApplication in 5.96 seconds (process running for 6.445)
+2024-07-31T12:56:52.339+05:30  INFO 12076 --- [http-nio-8088-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-31T12:56:52.340+05:30  INFO 12076 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-31T12:56:52.344+05:30  INFO 12076 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-07-31T12:56:52.988+05:30  WARN 12076 --- [http-nio-8088-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.UserException: Please provide a valid key to view buses]
+2024-07-31T12:58:09.146+05:30  WARN 12076 --- [http-nio-8088-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.security.auth.login.LoginException: User already Logged in with this username.]
+2024-07-31T12:58:13.659+05:30  WARN 12076 --- [http-nio-8088-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.security.auth.login.LoginException: User already Logged in with this username.]
+2024-07-31T12:58:15.233+05:30  WARN 12076 --- [http-nio-8088-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.security.auth.login.LoginException: User already Logged in with this username.]
+2024-07-31T12:58:35.284+05:30  WARN 12076 --- [http-nio-8088-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.security.auth.login.LoginException: User already Logged in with this username.]
+2024-07-31T12:58:49.091+05:30  WARN 12076 --- [http-nio-8088-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.BusException: bus list is empty]
+2024-07-31T12:58:58.072+05:30  WARN 12076 --- [http-nio-8088-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.security.auth.login.LoginException: User already Logged in with this username.]
+2024-07-31T12:59:04.372+05:30  WARN 12076 --- [http-nio-8088-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.security.auth.login.LoginException: Please Enter a valid username.]
+2024-07-31T12:59:11.387+05:30  WARN 12076 --- [http-nio-8088-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.security.auth.login.LoginException: Please Enter a valid username.]
+2024-07-31T12:59:46.046+05:30  WARN 12076 --- [http-nio-8088-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.BusException: bus list is empty]
+2024-07-31T12:59:54.023+05:30  WARN 12076 --- [http-nio-8088-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.security.auth.login.LoginException: User already Logged in with this username.]
+2024-07-31T13:07:11.777+05:30  INFO 3912 --- [restartedMain] .m.BusTicketReservationSystemApplication : Starting BusTicketReservationSystemApplication using Java 21.0.4 with PID 3912 (C:\Users\Shrut\Documents\BusTicketReservationSystem\build\classes\java\main started by Shrut in C:\Users\Shrut\Documents\BusTicketReservationSystem)
+2024-07-31T13:07:11.781+05:30  INFO 3912 --- [restartedMain] .m.BusTicketReservationSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-07-31T13:07:11.852+05:30  INFO 3912 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-31T13:07:11.852+05:30  INFO 3912 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-31T13:07:12.832+05:30  INFO 3912 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-31T13:07:12.937+05:30  INFO 3912 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 6 JPA repository interfaces.
+2024-07-31T13:07:13.645+05:30  INFO 3912 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8088 (http)
+2024-07-31T13:07:13.660+05:30  INFO 3912 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-31T13:07:13.660+05:30  INFO 3912 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-31T13:07:13.716+05:30  INFO 3912 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-31T13:07:13.717+05:30  INFO 3912 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1864 ms
+2024-07-31T13:07:13.893+05:30  INFO 3912 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-31T13:07:14.006+05:30  INFO 3912 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-31T13:07:14.052+05:30  INFO 3912 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-31T13:07:14.454+05:30  INFO 3912 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-31T13:07:14.493+05:30  INFO 3912 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-31T13:07:15.029+05:30  INFO 3912 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6016147a
+2024-07-31T13:07:15.033+05:30  INFO 3912 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-31T13:07:16.278+05:30  INFO 3912 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-31T13:07:16.431+05:30  INFO 3912 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31T13:07:16.961+05:30  WARN 3912 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-31T13:07:17.369+05:30  INFO 3912 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-31T13:07:17.408+05:30  INFO 3912 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8088 (http) with context path '/'
+2024-07-31T13:07:17.418+05:30  INFO 3912 --- [restartedMain] .m.BusTicketReservationSystemApplication : Started BusTicketReservationSystemApplication in 6.235 seconds (process running for 6.874)
+2024-07-31T13:07:43.537+05:30  INFO 3912 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-31T13:07:43.537+05:30  INFO 3912 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-31T13:07:43.540+05:30  INFO 3912 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-07-31T13:07:43.919+05:30  WARN 3912 --- [http-nio-8088-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T13:07:54.120+05:30  WARN 3912 --- [http-nio-8088-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.security.auth.login.LoginException: User already Logged in with this username.]
+2024-07-31T13:08:40.877+05:30  WARN 3912 --- [http-nio-8088-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.security.auth.login.LoginException: User already Logged in with this username.]
+2024-07-31T13:11:35.199+05:30  INFO 14408 --- [restartedMain] .m.BusTicketReservationSystemApplication : Starting BusTicketReservationSystemApplication using Java 21.0.4 with PID 14408 (C:\Users\Shrut\Documents\BusTicketReservationSystem\build\classes\java\main started by Shrut in C:\Users\Shrut\Documents\BusTicketReservationSystem)
+2024-07-31T13:11:35.201+05:30  INFO 14408 --- [restartedMain] .m.BusTicketReservationSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-07-31T13:11:35.274+05:30  INFO 14408 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-31T13:11:35.275+05:30  INFO 14408 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-31T13:11:36.273+05:30  INFO 14408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-31T13:11:36.419+05:30  INFO 14408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 135 ms. Found 6 JPA repository interfaces.
+2024-07-31T13:11:37.253+05:30  INFO 14408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8088 (http)
+2024-07-31T13:11:37.271+05:30  INFO 14408 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-31T13:11:37.271+05:30  INFO 14408 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-31T13:11:37.327+05:30  INFO 14408 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-31T13:11:37.327+05:30  INFO 14408 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2051 ms
+2024-07-31T13:11:37.562+05:30  INFO 14408 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-31T13:11:37.685+05:30  INFO 14408 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-31T13:11:37.744+05:30  INFO 14408 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-31T13:11:38.161+05:30  INFO 14408 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-31T13:11:38.208+05:30  INFO 14408 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-31T13:11:38.711+05:30  INFO 14408 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d25b65a
+2024-07-31T13:11:38.719+05:30  INFO 14408 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-31T13:11:39.949+05:30  INFO 14408 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-31T13:11:40.061+05:30  INFO 14408 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31T13:11:40.545+05:30  WARN 14408 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-31T13:11:41.001+05:30  INFO 14408 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-31T13:11:41.035+05:30  INFO 14408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8088 (http) with context path '/'
+2024-07-31T13:11:41.045+05:30  INFO 14408 --- [restartedMain] .m.BusTicketReservationSystemApplication : Started BusTicketReservationSystemApplication in 6.403 seconds (process running for 7.142)
+2024-07-31T13:12:48.229+05:30  INFO 14408 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-31T13:12:48.230+05:30  INFO 14408 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-31T13:12:48.232+05:30  INFO 14408 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-07-31T13:12:48.627+05:30  WARN 14408 --- [http-nio-8088-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T13:13:04.662+05:30  WARN 14408 --- [http-nio-8088-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T13:13:14.743+05:30  WARN 14408 --- [http-nio-8088-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T13:13:14.743+05:30  WARN 14408 --- [http-nio-8088-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T13:13:14.743+05:30  WARN 14408 --- [http-nio-8088-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T13:13:31.651+05:30  WARN 14408 --- [http-nio-8088-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T13:13:31.651+05:30  WARN 14408 --- [http-nio-8088-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T13:13:31.651+05:30  WARN 14408 --- [http-nio-8088-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T13:14:16.592+05:30  WARN 14408 --- [http-nio-8088-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T13:14:24.648+05:30  WARN 14408 --- [http-nio-8088-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.security.auth.login.LoginException: User already Logged in with this username.]
+2024-07-31T13:15:23.467+05:30  WARN 14408 --- [http-nio-8088-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.security.auth.login.LoginException: Please Enter a valid password]
+2024-07-31T13:15:29.593+05:30  WARN 14408 --- [http-nio-8088-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.security.auth.login.LoginException: Please Enter a valid password]
+2024-07-31T13:15:50.802+05:30  WARN 14408 --- [http-nio-8088-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.security.auth.login.LoginException: User already Logged in with this username.]
+2024-07-31T13:17:01.726+05:30  WARN 14408 --- [http-nio-8088-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T13:17:31.247+05:30  WARN 14408 --- [http-nio-8088-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.masai.exception.UserException: User already exist with this username.]
+2024-07-31T13:18:01.830+05:30  WARN 14408 --- [http-nio-8088-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T13:18:16.222+05:30  WARN 14408 --- [http-nio-8088-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.security.auth.login.LoginException: Please Enter a valid username.]
+2024-07-31T13:18:23.013+05:30  WARN 14408 --- [http-nio-8088-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.security.auth.login.LoginException: Please Enter a valid username.]
+2024-07-31T13:18:35.963+05:30  WARN 14408 --- [http-nio-8088-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.security.auth.login.LoginException: Please Enter a valid username.]
+2024-07-31T13:18:43.416+05:30  WARN 14408 --- [http-nio-8088-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.security.auth.login.LoginException: Please Enter a valid username.]
+2024-07-31T13:18:51.730+05:30  WARN 14408 --- [http-nio-8088-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.security.auth.login.LoginException: Please Enter a valid username.]
+2024-07-31T15:16:31.604+05:30  INFO 10588 --- [restartedMain] .m.BusTicketReservationSystemApplication : Starting BusTicketReservationSystemApplication using Java 21.0.4 with PID 10588 (C:\Users\Shrut\Documents\BusTicketReservationSystem\build\classes\java\main started by Shrut in C:\Users\Shrut\Documents\BusTicketReservationSystem)
+2024-07-31T15:16:31.608+05:30  INFO 10588 --- [restartedMain] .m.BusTicketReservationSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-07-31T15:16:31.682+05:30  INFO 10588 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-31T15:16:31.683+05:30  INFO 10588 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-31T15:16:32.586+05:30  INFO 10588 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-31T15:16:32.737+05:30  INFO 10588 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 141 ms. Found 6 JPA repository interfaces.
+2024-07-31T15:16:33.519+05:30  INFO 10588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8088 (http)
+2024-07-31T15:16:33.534+05:30  INFO 10588 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-31T15:16:33.535+05:30  INFO 10588 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-31T15:16:33.588+05:30  INFO 10588 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-31T15:16:33.588+05:30  INFO 10588 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1905 ms
+2024-07-31T15:16:33.798+05:30  INFO 10588 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-31T15:16:33.897+05:30  INFO 10588 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-31T15:16:33.935+05:30  INFO 10588 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-31T15:16:34.333+05:30  INFO 10588 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-31T15:16:34.371+05:30  INFO 10588 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-31T15:16:34.949+05:30  INFO 10588 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16481963
+2024-07-31T15:16:34.952+05:30  INFO 10588 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-31T15:16:36.130+05:30  INFO 10588 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-31T15:16:36.227+05:30  INFO 10588 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31T15:16:36.736+05:30  WARN 10588 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-31T15:16:37.160+05:30  INFO 10588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-31T15:16:37.192+05:30  INFO 10588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8088 (http) with context path '/'
+2024-07-31T15:16:37.200+05:30  INFO 10588 --- [restartedMain] .m.BusTicketReservationSystemApplication : Started BusTicketReservationSystemApplication in 6.192 seconds (process running for 6.86)
+2024-07-31T15:16:50.005+05:30  INFO 10588 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-31T15:16:50.007+05:30  INFO 10588 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-31T15:16:50.009+05:30  INFO 10588 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-07-31T15:16:50.673+05:30  WARN 10588 --- [http-nio-8088-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T15:16:50.673+05:30  WARN 10588 --- [http-nio-8088-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T15:16:50.673+05:30  WARN 10588 --- [http-nio-8088-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T15:16:52.386+05:30  WARN 10588 --- [http-nio-8088-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T15:17:26.970+05:30  WARN 10588 --- [http-nio-8088-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T15:17:59.244+05:30  WARN 10588 --- [http-nio-8088-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T15:18:05.237+05:30  WARN 10588 --- [http-nio-8088-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T15:19:02.918+05:30  WARN 10588 --- [http-nio-8088-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T15:19:06.323+05:30  WARN 10588 --- [http-nio-8088-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T15:19:21.853+05:30  WARN 10588 --- [http-nio-8088-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T15:19:35.075+05:30  WARN 10588 --- [http-nio-8088-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T15:22:50.661+05:30  WARN 10588 --- [http-nio-8088-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
+2024-07-31T15:23:00.259+05:30  WARN 10588 --- [http-nio-8088-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "abc"]
+2024-07-31T15:23:24.861+05:30  WARN 10588 --- [http-nio-8088-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned]
